@@ -13,7 +13,7 @@ public class SpawnCaja : MonoBehaviour
     }
 
     // Update is called once per frame
-    void LocateBoxAtRandomPosition()
+    public void LocateBoxAtRandomPosition()
     {
         Vector3 currentPosition = transform.position;
         float newX = 0f;
