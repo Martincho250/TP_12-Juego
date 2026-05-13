@@ -29,11 +29,4 @@ public class PlayerController : MonoBehaviour
             transform.position.z
         );
     }
-    void OnCollisionEnter(Collision col)
-    {
-        if(col.gameObject.CompareTag("Caja"))
-        {
-            Destroy(gameObject);
-        }
-    }
 }
